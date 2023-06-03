@@ -8,19 +8,19 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'https://github.com/Three-taile-dragon/crdroid_kernel_oneplus_sdm845'
+        default: 'https://github.com/Tkiliay/android_kernel_xiaomi_sdm710'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: '13.0-m00'
+        default: 'kernelsu'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'arch/arm64/configs/enchilada_defconfig'
+        default: 'xiaomi/sdm710-common.config'
       KERNEL_FILE:
         description: 'Your kernel out image name'
         required: true
-        default: 'Image.gz-dtb'
+        default: 'Image.gz'
       CLANG_VERSION:
         description: 'Clang version'
         required: true
